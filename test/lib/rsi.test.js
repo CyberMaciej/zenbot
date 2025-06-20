@@ -20,10 +20,10 @@ describe('RSI (Relative Strength Index)', function () {
     expect(noGainData.period.rsi).toEqual(0)
   })
 
-  it('should set RSI to 0 when there is no price change for the entire period', function() {
+  it('should set RSI to 50 when there is no price change for the entire period', function() {
     RSI(noPriceChangeData, 'rsi', 14)
 
-    expect(noPriceChangeData.period.rsi).toEqual(100)
+    expect(noPriceChangeData.period.rsi).toEqual(50)
   })
 })
 
