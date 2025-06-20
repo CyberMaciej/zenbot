@@ -1,0 +1,14 @@
+{
+  "finance": {
+    "bestPractices": "UK FCA guidelines and ISO 27001 controls",
+    "threshold": 80
+  },
+  "healthcare": {
+    "bestPractices": "UK NHS Digital security framework",
+    "threshold": 85
+  },
+  "technology": {
+    "bestPractices": "NCSC cloud security principles",
+    "threshold": 75
+  }
+}
